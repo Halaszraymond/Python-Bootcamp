@@ -1,10 +1,12 @@
 # Python-Bootcamp
 
-Hey guys,
+Hey guys
 
-Check out my portfolio from the Python Bootcamp that I followed!\n
-The first days go back to the basics like inserting a print statement or asking for input aswell as making if statements and loops.\n
-The projects get more difficult when the days increase. Feel free to check them out.\n
+Check out my portfolio from the Python Bootcamp that I followed!
 
-Kind regards,\n
+The first days go back to the basics like inserting a print statement or asking for input aswell as making if statements and loops.
+The projects get more difficult with the days increasing. Feel free to check them out.
+
+Kind regards,
+
 Raymond
