@@ -9,7 +9,7 @@ def get_quote():
     quote = data["quote"]
     canvas.itemconfig(quote_text, text=quote)
 
-
+    
 window = Tk()
 window.title("Kanye Says...")
 window.config(padx=50, pady=50)
