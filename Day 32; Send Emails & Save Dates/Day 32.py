@@ -62,8 +62,11 @@ if add_name == "y":
     the_day = int(input("On what day was the person born: (insert a number)"))
     update_csv(the_name, the_email, the_year, the_month, the_day)
 
+name_recipient = birthday_check()[1]
+email_recipient = birthday_check()[2]
+
 
 if birthday_check():
-    send_email(birthday_check()[2], random_letter(birthday_check()[1]))
+    send_email(email_recipient, random_letter(name_recipient))
 
 
