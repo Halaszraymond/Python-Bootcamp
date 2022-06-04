@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 import smtplib
 
-MY_LAT = 52.300739 # Your latitude
-MY_LONG = 5.627950 # Your longitude
+MY_LAT = {"MY_LAT"} 
+MY_LONG = {"MY_LONG"} 
 
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
 response.raise_for_status()
@@ -36,13 +36,13 @@ current_hour = time_now.hour
 # and it is currently dark
 if position_close_to_iss and sunrise > current_hour > sunset:
 # Then send me an email to tell me to look up.
-    my_email = f"geenideejantje@yahoo.com"
-    password = f"Zt$%5b4R&62kY!"
+    my_email = f"{"MY_EMAIL"}"
+    password = f"{"MY_PASSWORD"}"
     with smtplib.SMTP("smtp.mail.yahoo.com", 587) as connection:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
-                            to_addrs="raymond@halasz.nl",
+                            to_addrs={"RECEIVER_EMAIL"},
                             msg=f"Subject:Look up!\n\nThe ISS is flying over right now."
                             )
 
