@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 from datetime import timedelta
 
-USERNAME = "halasz"
-TOKEN = "2JR#5nu#Bq#vnN"
+USERNAME = "{YOUR USERNAME}"
+TOKEN = "{YOUR PIXE.LA TOKEN"
 GRAPH_ID = "graph1"
 TODAY = datetime.now()
 YESTERDAY = TODAY - timedelta(days=1)
