@@ -3,7 +3,7 @@ from datetime import datetime
 from datetime import timedelta
 
 USERNAME = "{YOUR USERNAME}"
-TOKEN = "{YOUR PIXE.LA TOKEN"
+TOKEN = "{YOUR PIXE.LA TOKEN}"
 GRAPH_ID = "graph1"
 TODAY = datetime.now()
 YESTERDAY = TODAY - timedelta(days=1)
