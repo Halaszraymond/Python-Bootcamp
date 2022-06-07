@@ -3,10 +3,10 @@ from datetime import datetime
 
 user_input = input("Tell me what exercises you did: ").lower()
 
-BEARER_TOKEN = "iqBXzMFs%&B52w"
-APPLICATION_ID = "9b6dbb64"
-NUTRITIONIX_API_KEY = "779c5dc163b232fd35b1efc25eac629c"
-USERNAME = "Halaszraymond"
+BEARER_TOKEN = "{YOUR_BEARER_TOKEN}"
+APPLICATION_ID = "{YOUR_APPLICATIO_ID}"
+NUTRITIONIX_API_KEY = "{YOUR_API_KEY}"
+USERNAME = "{YOU_USERNAME}"
 EXERCISE_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
 SHEETY_ENDPOINT = "https://api.sheety.co/06c67c07c5c7a76e7db3005e5565d98a/myWorkoutsPython/workouts"
 
