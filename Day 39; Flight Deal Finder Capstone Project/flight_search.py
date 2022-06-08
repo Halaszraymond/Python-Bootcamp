@@ -5,7 +5,7 @@ from datetime import datetime
 from datetime import timedelta
 from pprint import pprint
 
-apikey = "opjOHliMBjLSjP3JmO9ncDNv-5EHUOiL"
+apikey = "{TEQUILA_API_KEY}"
 TEQUILA_KIWI_ENDPOINT = f"https://tequila-api.kiwi.com"
 today = datetime.now().strftime("%d/%m/%Y")
 six_months = (datetime.now() + timedelta(6 * 30)).strftime("%d/%m/%Y")
