@@ -1,0 +1,162 @@
+body {
+  color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 0;
+  color: #0F4C75;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #0F4C75;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #3282B8;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+hr {
+  width: 7%;
+  border: none;
+  border-top: 10px dotted #BBE1FA;
+  margin: 100px auto;
+}
+
+a {
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+    margin: 70px auto 0 auto;
+}
+
+.top_container {
+  background-color: #1B262C;
+  position: relative;
+  padding-top: 100px;
+}
+
+.ITCS-student {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 8%;
+  width: 300px;
+  height: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 50%;
+  width: 300px;
+  height: 100px;
+}
+
+.mountain {
+  position: relative;
+  align-content: center;
+  border-bottom: 0;
+  height: 650px;
+}
+
+.middle-container {
+    padding-top: 100px;
+}
+
+.profile {
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.profile-picture {
+  height: 200px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #3282b8 5%, #0f4c75 100%);
+	background-color:#3282b8;
+	border-radius:28px;
+	border:1px solid #0f4c75;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3282b8;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0f4c75 5%, #3282b8 100%);
+	background-color:#0f4c75;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #3282B8;
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0F4C75;
+}
