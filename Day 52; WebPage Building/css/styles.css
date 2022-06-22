@@ -1,0 +1,124 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+  line-height: 20px;
+  font-weight: 500;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 1009px;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  line-height: 35px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  margin: 5px;;
+}
+
+.top-container {
+  margin-bottom: 50px;
+}
+
+.title-block {
+  display: inline-block;
+  width: 370px;
+  height: 240px;
+}
+
+.rate-block {
+  position: relative;
+  display: inline-block;
+  height: 240px;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  padding: 1px 20px;
+  margin: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.text {
+  margin-left: 30px;
+  font-size: 16px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+#in-reviews {
+  margin-left: 80px;
+}
+
+#in-guru {
+  margin-left: 130px;
+}
+
+#in-besttech {
+  margin-left: 180px;
+}
+
+.reviews {
+  text-align: left;
+  height: 250px;
+  margin-left: 0;
+}
+
+.review {
+  text-align: left;
+  display: inline-block;
+  font-weight: 500;
+  background-color: hsl(300, 43%, 22%);
+  width: 270px;
+  height: 130px;
+  padding: 40px 25px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.top-paragraph {
+  display: flex;
+}
+
+.profile-pfp {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.quote {
+  color: hsl(300, 24%, 96%);
+}
+
+#colton {
+  position: relative;
+  margin-top: 0;
+}
+
+#irene {
+  position: relative;
+  top: 20px;
+}
+
+#anne {
+  position: relative;
+  top: 40px;
+  margin-right: 0;
+}
