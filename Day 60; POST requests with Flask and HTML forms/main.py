@@ -3,8 +3,8 @@ import requests
 from post import Post
 import smtplib
 
-OWN_EMAIL = "geenideejantje@yahoo.com"
-OWN_PASSWORD = "ercuxucwgbhtvvmq"
+OWN_EMAIL = f"{YOUR EMAIL}"
+OWN_PASSWORD = f"{YOUR PASSWORD}"
 
 all_content = requests.get("https://api.npoint.io/6eb300bc8219c36fa9bb").json()
 blog_content = []
