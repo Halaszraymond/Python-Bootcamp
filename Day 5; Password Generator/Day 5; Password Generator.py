@@ -41,4 +41,3 @@ password_new = random.sample(password1, len(password1))  # Items uit de lijst do
 password_definitive = "".join(password_new)  # Lijst veranderen naar een string
 print(f"Your password is: {password_definitive}")  # Output
 
-# Totaal aantal uur besteed: 3.5 uur (1.30 uur beeldmateriaal, 2 uur oefeningen)
