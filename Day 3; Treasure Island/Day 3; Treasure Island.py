@@ -51,4 +51,3 @@ elif direction == "the island":
 else:
     print("Oops, I didn't hear you right, choose from 'the castle' or 'the island'.")
 
-# Totaal aantal uur besteed: 3 uur (1.40 uur beeldmateriaal, 1.20 uur oefeningen)
