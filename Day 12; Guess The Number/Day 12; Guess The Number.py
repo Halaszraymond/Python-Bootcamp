@@ -42,5 +42,3 @@ while guess_number != random_number:
             guess_number = int(input("Make a guess: "))
 if guess_number == random_number:
     print(f"You got it! The answer was {random_number}.")
-
-# Totaal bestede tijd: 2.5 uur (1 uur beeldmateriaal, 1,30 uur oefeningen
