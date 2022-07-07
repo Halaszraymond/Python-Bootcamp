@@ -98,4 +98,3 @@ else:
         if input("Do you want to play a game of Blackjack? Type 'y' or 'n':\n") == 'y':
             print(logo)
             blackjack()
-# Totaal_bestede_tijd:_4 uur_(1_uur_beeldmateriaal,_3_uur_oefeningen)
