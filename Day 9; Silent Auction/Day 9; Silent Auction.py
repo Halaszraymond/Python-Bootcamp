@@ -29,4 +29,3 @@ for bidder in names_and_bids:
         highest_bid = names_and_bids[bidder]
 print(f"The winner is {highest_bidder} with a bid of ${highest_bid}.")
 
-# Totaal bestede tijd: 4 uur (2 uur beeldmateriaal, 2 uur oefeningen)
