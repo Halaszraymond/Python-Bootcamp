@@ -9,4 +9,4 @@ people = input("How many people to split the bill?\n")  # Gebruiker voert aantal
 Amount_per_person = "{:.2f}".format(float(Total_amount / int(people)))  # Het totale te betalen bedrag per persoon
 print(f"Each person should pay: ${Amount_per_person}")  # Display met het te betalen bedrag per persoon
 
-# Totaal aantal uur besteed: 2 uur (1.20 uur beeldmateriaal, +- 40 minuten oefeningen)
+
