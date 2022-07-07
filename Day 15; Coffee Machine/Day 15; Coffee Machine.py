@@ -72,4 +72,4 @@ while device == "on":
         make_coffee()
 
 
-# Totaal tijd besteed: 5 uur (1 uur beeldmateriaal, 4 uur oefeningen)
+
