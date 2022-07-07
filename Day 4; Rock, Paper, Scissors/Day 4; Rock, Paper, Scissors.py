@@ -70,4 +70,4 @@ elif player == 2 and computer == 1:
 elif player == 2 and computer == 2:
     print("Draw")
 
-# Aantal uur besteed: 3.5 uur: (1.30 uur beeldmateriaal. 2 uur oefeningen)
+
