@@ -40,4 +40,4 @@ while not game_is_finished:
 
     print(stages[lives])
 
-# Totaal bestede tijd: 2.5 uur (1 uur beeldmateriaal, 1,30 uur oefeningen)
+
