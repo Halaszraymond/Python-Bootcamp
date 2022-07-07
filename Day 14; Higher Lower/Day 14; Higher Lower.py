@@ -48,4 +48,4 @@ while choice == answer:
 # display als er een fout antwoord wordt gegeven
 print(f"Sorry, that's wrong. Final score: {score}")
 
-# Totaal bestede tijd: 2 uur (1 uur beeldmateriaal, 1 uur oefeningen)
+
