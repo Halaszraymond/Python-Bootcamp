@@ -10,4 +10,4 @@ pet_name = input("What is the name of your pet?\n")
 # 4. Combine the name of their city and pet and show them their band name.
 print("Your band's name is: " + city + " " + pet_name + "!")
 
-# Aantal uur besteed: 2 uur (1.30 uur beeldmateriaal, +- 30 minuten oefeningen)
+
