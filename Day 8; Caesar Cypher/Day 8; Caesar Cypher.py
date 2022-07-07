@@ -38,4 +38,3 @@ while not should_end:
         should_end = True
         print("Goodbye")
 
-# Totaal bestede uren: 3.5 (1.30 aan beeldmateriaal, 2 uur aan oefeningen)
