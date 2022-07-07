@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Login</title>
+		<link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+	</head>
+	<body>
+        <div class="container">
+		<h1>Login</h1>
+        <!-- This is where our form will go. -->
+			<form method="POST" action="url_for('login)">
+				{{ form.hidden_tag() }}
+				<fieldset class="form-group">
+					<legend class="border-bottom mb-4">Login</legend>
+					<div class="form-group">
+						{{ form.email.label(class="form-control-label") }}
+						{{ form.email(class="form-control-lg") }}
+					</div>
+					<div class="form-group">
+						{{ form.password.label(class="form-control-label") }}
+						{{ form.password(class="form-control-lg") }}
+					</div>
+				</fieldset>
+			</form>
+
+        </div>
+		<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='js/scripts.js')}}"></script>
+	</body>
+</html>
